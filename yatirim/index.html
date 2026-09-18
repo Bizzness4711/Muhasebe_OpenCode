@@ -1,221 +1,100 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yatırım Takip | Yatırımlarınızı Yönetin - Finora</title>
-    <meta name="description" content="Yatırım hesaplarınızı tek yerden takip edin. Döviz, altın ve diğer yatırımlarınızın performansını görün.">
-    <link rel="canonical" href="https://bizzness4711.github.io/Muhasebe/yatirim/">
-    <link rel="stylesheet" href="../css/landing.css">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Yatırım Takip | Yatırımlarınızı Yönetin - Finora">
-    <meta property="og:description" content="Yatırım hesaplarınızı tek yerden takip edin. Döviz, altın ve diğer yatırımlarınızın performansını görün.">
-    <meta property="og:url" content="https://bizzness4711.github.io/Muhasebe/yatirim/">
-    <meta property="og:site_name" content="Finora">
-    <meta property="og:locale" content="tr_TR">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Yatırım Takip | Yatırımlarınızı Yönetin - Finora">
-    <meta name="twitter:description" content="Yatırım hesaplarınızı tek yerden takip edin. Döviz, altın ve diğer yatırımlarınızın performansını görün.">
-
-    <!-- JSON-LD -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Finora Yatırım Takip",
-        "url": "https://bizzness4711.github.io/Muhasebe/yatirim/",
-        "description": "Yatırım hesaplarınızı tek yerden takip edin. Döviz, altın ve diğer yatırımlarınızın performansını görün.",
-        "applicationCategory": "FinanceApplication",
-        "operatingSystem": "Web",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "TRY"
-        }
-    }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yatırım Portföyü Takibi | Yatırımlarınızı Yönetin - Finora</title>
+<meta name="description" content="Yatırım portföyünüzü Finora ile takip edin. Hisse, tahvil, fon ve kripto yatırımlarınızı tek çatı altında yönetin. Ücretsiz portföy analizi.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://bizzness4711.github.io/Muhasebe/yatirim/">
+<link rel="stylesheet" href="../css/landing.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Yatırım Portföyü Takibi - Finora">
+<meta property="og:description" content="Yatırım portföyünüzü Finora ile takip edin. Ücretsiz portföy analizi.">
+<meta property="og:url" content="https://bizzness4711.github.io/Muhasebe/yatirim/">
+<meta property="og:site_name" content="Finora">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yatırım Portföyü Takibi - Finora">
+<meta name="twitter:description" content="Yatırım portföyünüzü Finora ile takip edin.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Finora Yatırım Portföyü","url":"https://bizzness4711.github.io/Muhasebe/yatirim/","applicationCategory":"FinanceApplication","operatingSystem":"Web","description":"Yatırım portföyünüzü takip edin.","offers":{"@type":"Offer","price":"0","priceCurrency":"TRY"},"inLanguage":"tr"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Finora'da hangi yatırım türlerini takip edebilirim?","acceptedAnswer":{"@type":"Answer","text":"Hisse senedi, tahvil, yatırım fonu, kripto para, altın ve döviz gibi farklı yatırım türlerini takip edebilirsiniz."}},{"@type":"Question","name":"Yatırım portföyümü Finora'ya nasıl eklerim?","acceptedAnswer":{"@type":"Answer","text":"Yeni bir yatırım hesabı oluşturup alış tarihi, miktar ve birim fiyat girerek yatırımlarınızı ekleyebilirsiniz."}},{"@type":"Question","name":"Finora yatırımlarımdan kâr/zarar hesaplar mı?","acceptedAnswer":{"@type":"Answer","text":"Evet, her yatırımınız için kâr ve zararınızı otomatik olarak hesaplar."}},{"@type":"Question","name":"Finora ücretsiz mi?","acceptedAnswer":{"@type":"Answer","text":"Evet, temel özellikler tamamen ücretsizdir."}}]}
+</script>
 </head>
 <body>
+<nav class="lp-nav"><div class="lp-nav-inner">
+<a href="../" class="lp-brand"><span class="lp-brand-mark">F</span> Finora</a>
+<button class="lp-mobile-toggle" onclick="document.querySelector('.lp-nav-links').classList.toggle('open')" aria-label="Menüyü aç">☰</button>
+<div class="lp-nav-links">
+<a href="../butce/">Bütçe</a><a href="../gelir-gider/">Gelir-Gider</a><a href="../harcama/">Harcama</a><a href="../birikim/">Birikim</a><a href="../altin/">Altın</a><a href="../yatirim/" class="active">Yatırım</a><a href="../butce-hesapla/">Bütçe Hesapla</a><a href="../" class="lp-cta-btn">Hemen Başla</a>
+</div></div></nav>
 
-<!-- Navigation -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="../" class="nav-brand">Finora</a>
-        <button class="nav-toggle" aria-label="Menü">☰</button>
-        <ul class="nav-links">
-            <li><a href="../butce/">Bütçe</a></li>
-            <li><a href="../gelir-gider/">Gelir-Gider</a></li>
-            <li><a href="../harcama/">Harcama</a></li>
-            <li><a href="../birikim/">Birikim</a></li>
-            <li><a href="../altin/">Altın</a></li>
-            <li><a href="../yatirim/" class="active">Yatırım</a></li>
-            <li><a href="../butce-hesapla/">Bütçe Hesapla</a></li>
-            <li><a href="../" class="nav-cta">Hemen Başla</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- Hero -->
-<header class="hero">
-    <div class="container">
-        <h1>Yatırımlarınızı Tek Ekranda Yönetin</h1>
-        <p class="hero-subtitle">Döviz, altın, kripto ve diğer yatırım araçlarınızı tek bir platformda takip edin, analiz edin ve geleceğinizi planlayın.</p>
-        <a href="../" class="btn btn-primary">Ücretsiz Başlayın</a>
-    </div>
-</header>
-
-<!-- Neden Yatırım Takip -->
-<section class="section">
-    <div class="container">
-        <h2>Yatırım Takip Neden Önemli?</h2>
-        <p>Yatırımlarınızı düzenli olarak takip etmek, finansal hedeflerinize ulaşmanızın anahtarıdır. Piyasa koşulları hızla değişirken, yatırımlarınızın performansını an be an izlemek bilinçli kararlar almanızı sağlar.</p>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>Çoklu Portföy Yönetimi</h3>
-                <p>Farklı yatırım araçlarınızı — hisse senetleri, tahviller, fonlar, döviz ve altın — tek bir portföyde birleştirin. Dağınık hesaplarınız artık tek ekranda.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Gerçek Zamanlı Kurlar</h3>
-                <p>Döviz kurları, altın fiyatları ve diğer yatırım enstrümanlarının anlık değerlerini görüntüleyin. Piyasadaki değişimleri kaçırmayın.</p>
-            </div>
-        </div>
-    </div>
+<section class="lp-hero">
+<h1>Yatırım Portföyünüzü <em>Tek Panelde</em> Yönetin</h1>
+<p>Hisse senedi, tahvil, fon, kripto ve altın yatırımlarınızı tek çatı altında takip edin. Portföy dağılımınızı ve kâr/zararınızı anlık görün.</p>
+<div class="lp-hero-actions"><a href="../" class="lp-hero-btn primary">Ücretsiz Başla →</a><a href="#ozellikler" class="lp-hero-btn secondary">Özellikler</a></div>
 </section>
 
-<!-- Özellikler -->
-<section class="section section-alt">
-    <div class="container">
-        <h2>Finora Yatırım Takip Özellikleri</h2>
-        <div class="feature-grid four-col">
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>Çoklu Hesap Desteği</h3>
-                <p>Ziraat, İş Bankası, Garanti gibi farklı bankalardaki yatırım hesaplarınızı tek platformda birleştirin.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">💱</div>
-                <h3>Döviz Kuru Takibi</h3>
-                <p>USD, EUR, GBP ve diğer döviz kurlarını anlık olarak takip edin. Alım-satım noktalarınızı belirleyin.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🪙</div>
-                <h3>Altın İşlemleri</h3>
-                <p>Gram altın, çeyrek altın, yarım altın ve tam altın işlemlerinizi kaydedin, ortalama maliyetinizi hesaplayın.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📈</div>
-                <h3>Kâr/Zarar Analizi</h3>
-                <p>Yatırımlarınızın toplam kâr veya zararını, yüzdelik getiri oranlarını detaylı grafiklerle görüntüleyin.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<section class="lp-section" id="ozellikler">
+<h2 class="lp-section-title">Neden Portföy Takibi Yapmalısınız?</h2>
+<p class="lp-section-desc">Yatırımlarınızı izlemek, bilinçli kararlar almanın temelidir. Dağınık hesapları tek bir panelde birleştirin.</p>
+<div class="lp-cards">
+<div class="lp-card"><div class="lp-card-icon green">📊</div><h3>Tek Panelde Görün</h3><p>Farklı banka ve aracı kurumlardaki yatırımlarınızı tek bir ekranda görüntüleyin.</p></div>
+<div class="lp-card"><div class="lp-card-icon blue">🎯</div><h3>Dağılım Analizi</h3><p>Portföyünüzün hangi sektörlere ve araçlara dağıldığını grafiklerle analiz edin.</p></div>
+<div class="lp-card"><div class="lp-card-icon orange">📈</div><h3>Kâr/Zarar Takibi</h3><p>Her yatırımınız için alış fiyatı ve güncel değer arasındaki farkı otomatik hesaplayın.</p></div>
+</div></section>
 
-<!-- Nasıl Çalışır -->
-<section class="section">
-    <div class="container">
-        <h2>Nasıl Çalışır?</h2>
-        <div class="steps">
-            <div class="step">
-                <div class="step-number">1</div>
-                <h3>Yatırım Hesabı Oluşturun</h3>
-                <p>Banka hesabınızı veya yatırım aracınızı sisteme ekleyin. Birkaç tıklama ile hesabınızı tanıtın.</p>
-            </div>
-            <div class="step">
-                <div class="step-number">2</div>
-                <h3>İşlemlerinizi Kaydedin</h3>
-                <p>Alım, satım ve transfer işlemlerinizi girin. Sistem otomatik olarak maliyet ve getiri hesaplar.</p>
-            </div>
-            <div class="step">
-                <div class="step-number">3</div>
-                <h3>Getirilerinizi İzleyin</h3>
-                <p>Portföyünüzün performansını grafikler ve raporlarla takip edin. Geleceğinizi planlayın.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<section class="lp-section lp-section--alt">
+<h2 class="lp-section-title">Finora Yatırım Özellikleri</h2>
+<p class="lp-section-desc">Yatırım sürecinizi kolaylaştıran araçlarla portföyünüzü akıllıca yönetin.</p>
+<div class="lp-cards">
+<div class="lp-card"><div class="lp-card-icon purple">💹</div><h3>Hisse Senedi Takibi</h3><p>BIST ve uluslararası hisse senedi yatırımlarınızı takip edin.</p></div>
+<div class="lp-card"><div class="lp-card-icon orange">🏦</div><h3>Tahvil ve Fon</h3><p>Hazine tahvilleri ve yatırım fonu yatırımlarınızı yönetin.</p></div>
+<div class="lp-card"><div class="lp-card-icon blue">🪙</div><h3>Kripto Para</h3><p>Bitcoin, Ethereum ve diğer kripto para yatırımlarınızı ekleyin.</p></div>
+<div class="lp-card"><div class="lp-card-icon green">🏅</div><h3>Altın ve Döviz</h3><p>Gram altın, döviz ve diğer emtia yatırımlarınızı yönetin.</p></div>
+</div></section>
 
-<!-- SSS -->
-<section class="section section-alt">
-    <div class="container">
-        <h2>Sıkça Sorulan Sorular</h2>
-        <div class="faq-list">
-            <details class="faq-item">
-                <summary>Yatırım takip nedir ve neden gerekli?</summary>
-                <p>Yatırım takip, finansal yatırım araçlarınızın değer değişimlerini, alım-satım işlemlerini ve kâr-zarar durumunu sistematik olarak izleme sürecidir. Düzenli takip, bilinçli yatırım kararları almanızı ve finansal hedeflerinize ulaşmanızı sağlar.</p>
-            </details>
-            <details class="faq-item">
-                <summary>Hangi yatırım araçlarını takip edebilirim?</summary>
-                <p>Finora ile döviz (USD, EUR, GBP vb.), altın (gram, çeyrek, yarım, tam), hisse senetleri, tahviller, fonlar ve kripto para gibi çeşitli yatırım araçlarını takip edebilirsiniz.</p>
-            </details>
-            <details class="faq-item">
-                <summary>Birden fazla banka hesabımı ekleyebilir miyim?</summary>
-                <p>Evet, farklı bankalardaki yatırım hesaplarınızı tek bir platformda birleştirebilirsiniz. Tüm portföyünüzü tek ekrandan yönetebilirsiniz.</p>
-            </details>
-            <details class="faq-item">
-                <summary>Kâr-zarar hesabı nasıl yapılır?</summary>
-                <p>Finora, her alım-satım işleminizi kaydeder ve otomatik olarak ortalama maliyet, toplam getiri ve yüzdelik kâr/zarar hesaplar. Detaylı raporlarla performansınızı analiz edebilirsiniz.</p>
-            </details>
-            <details class="faq-item">
-                <summary>Verilerim güvende mi?</summary>
-                <p>Evet, tüm verileriniz güvenli altyapıyla saklanır. Kişisel finansal bilgileriniz yalnızca sizin erişiminize açıktır ve üçüncü taraflarla paylaşılmaz.</p>
-            </details>
-        </div>
-    </div>
-</section>
+<section class="lp-section">
+<h2 class="lp-section-title">Nasıl Çalışır?</h2>
+<div class="lp-steps">
+<div class="lp-step"><span class="lp-step-num">1</span><div class="lp-step-content"><h3>Yatırımınızı Ekleyin</h3><p>Yeni bir yatırım hesabı oluşturun, alış tarihini ve fiyatı girin.</p></div></div>
+<div class="lp-step"><span class="lp-step-num">2</span><div class="lp-step-content"><h3>İşlemleri Kaydedin</h3><p>Alış ve satış işlemlerinizi detaylı olarak kaydedin.</p></div></div>
+<div class="lp-step"><span class="lp-step-num">3</span><div class="lp-step-content"><h3>Portföyünüzü Analiz Edin</h3><p>Finora otomatik olarak kâr/zararınızı hesaplar ve grafiklerle gösterir.</p></div></div>
+</div></section>
 
-<!-- CTA Banner -->
-<section class="cta-banner">
-    <div class="container">
-        <h2>Yatırımlarınızı Yönetmeye Başlayın</h2>
-        <p>Finora ile yatırımlarınızı tek ekranda takip edin, bilinçli kararlar alın.</p>
-        <a href="../" class="btn btn-primary">Hemen Başla</a>
-    </div>
-</section>
+<section class="lp-section">
+<h2 class="lp-section-title">Yatırım Türleri Hakkında Bilgi</h2>
+<p class="lp-section-desc">Her yatırım aracının kendine özgü risk ve getiri profili vardır.</p>
+<div class="lp-cards">
+<div class="lp-card"><div class="lp-card-icon green">📈</div><h3>Hisse Senedi</h3><p>Şirketlere ortak olma fırsatı sunar. Yüksek getiri potansiyeli taşırken risk de barındırır.</p></div>
+<div class="lp-card"><div class="lp-card-icon blue">📄</div><h3>Tahvil</h3><p>Devlet veya şirketlerin borçlanma araçlarıdır. Düşük riskli, düzenli getiri sağlar.</p></div>
+<div class="lp-card"><div class="lp-card-icon purple">📦</div><h3>Yatırım Fonu</h3><p>Profesyonel yöneticiler tarafından yönetilen yatırım sepetleridir.</p></div>
+<div class="lp-card"><div class="lp-card-icon orange">🔗</div><h3>Kripto Para</h3><p>Blockchain tabanlı dijital varlıklardır. Yüksek volatiliteye sahiptir.</p></div>
+</div></section>
 
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <a href="../" class="footer-logo">Finora</a>
-                <p>Finansal hayatınızı kolaylaştıran ücretsiz araçlar. Bütçe, gelir-gider, yatırımlar ve daha fazlası tek platformda.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Araçlar</h4>
-                <ul>
-                    <li><a href="../butce/">Bütçe Yönetimi</a></li>
-                    <li><a href="../gelir-gider/">Gelir-Gider Takibi</a></li>
-                    <li><a href="../harcama/">Harcama Kaydı</a></li>
-                    <li><a href="../birikim/">Birikim Hedefleri</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Yatırım</h4>
-                <ul>
-                    <li><a href="../altin/">Altın Takibi</a></li>
-                    <li><a href="../yatirim/">Yatırım Yönetimi</a></li>
-                    <li><a href="../butce-hesapla/">Bütçe Hesapla</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Destek</h4>
-                <ul>
-                    <li><a href="#">SSS</a></li>
-                    <li><a href="#">İletişim</a></li>
-                    <li><a href="#">Gizlilik Politikası</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Finora. Tüm hakları saklıdır.</p>
-        </div>
-    </div>
-</footer>
+<section class="lp-section">
+<h2 class="lp-section-title">Sıkça Sorulan Sorular</h2>
+<div class="lp-faq">
+<details class="lp-faq-item"><summary>Finora'da hangi yatırım türlerini takip edebilirim?</summary><div class="lp-faq-a"><p>Hisse senedi, tahvil, yatırım fonu, kripto para, altın ve döviz gibi farklı yatırım türlerini takip edebilirsiniz.</p></div></details>
+<details class="lp-faq-item"><summary>Yatırım portföyümü Finora'ya nasıl eklerim?</summary><div class="lp-faq-a"><p>Yeni bir yatırım hesabı oluşturup alış tarihi, miktar ve birim fiyat girerek yatırımlarınızı ekleyebilirsiniz.</p></div></details>
+<details class="lp-faq-item"><summary>Finora yatırımlarımdan kâr/zarar hesaplar mı?</summary><div class="lp-faq-a"><p>Evet, her yatırımınız için kâr ve zararınızı otomatik olarak hesaplar.</p></div></details>
+<details class="lp-faq-item"><summary>Finora ücretsiz mi?</summary><div class="lp-faq-a"><p>Evet, temel özellikler tamamen ücretsizdir.</p></div></details>
+</div></section>
 
+<div class="lp-cta-banner">
+<h2>Yatırım Portföyünüzü Hemen Yönetmeye Başlayın</h2>
+<p>Finora ile yatırımlarınızı takip edin, kâr ve zararınızı anında görün.</p>
+<a href="../" class="lp-hero-btn">Ücretsiz Başla →</a>
+</div>
+
+<footer class="lp-footer"><div class="lp-footer-inner">
+<div class="lp-footer-brand"><a href="../" class="lp-brand"><span class="lp-brand-mark">F</span> Finora</a><p>Kişisel finans yönetiminde güvenilir çözümünüz.</p></div>
+<div class="lp-footer-col"><h4>Özellikler</h4><a href="../butce/">Bütçe Yönetimi</a><a href="../gelir-gider/">Gelir-Gider Takibi</a><a href="../harcama/">Harcama Kaydı</a><a href="../birikim/">Birikim Hedefleri</a></div>
+<div class="lp-footer-col"><h4>Yatırım</h4><a href="../altin/">Altın Takip</a><a href="../yatirim/">Yatırım Portföyü</a><a href="../butce-hesapla/">Bütçe Hesaplama</a></div>
+<div class="lp-footer-col"><h4>Finora</h4><a href="../">Ana Sayfa</a></div>
+</div><div class="lp-footer-bottom"><span>&copy; 2026 Finora. Tüm hakları saklıdır.</span><span>Finansal özgürlüğün ilk adımı.</span></div></footer>
 </body>
 </html>
